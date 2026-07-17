@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# Generated sermon-transcript working files and deliverables
+*.vtt
+*.segments.json
+*.cleaned.md
+*.sermon.txt
+*.sermon.md
+*.boundaries.json
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Sermon Transcript"
+  short_description: "Extract and organize timestamped sermon transcripts"
+  default_prompt: "Use $youtube-sermon-transcript to extract this YouTube sermon and create date-named transcript files with timestamped logical paragraphs and chapters."
